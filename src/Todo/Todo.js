@@ -21,7 +21,7 @@ function Todo() {
 
 	return (
 		<div className="Todo" >
-			<form onSubmit={(e) => submit(e)}>
+			<form onSubmit={submit}>
 				<h3>Todo List:</h3>
 				<p>Make a Todo list (add & delete options):</p>
 				<input placeholder="Your task..." ref={input} /> <button>Add task</button>
